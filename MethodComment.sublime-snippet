@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+ /*******************************************************************************************************
+    * @description ${1:one or more lines that provide an overview of the method}
+    * @param ${2:paramName} ${3:a description of what the parameter does} 
+    * @return ${4:a description of the return value from the method}
+    * @example
+    * ${5: Example code usage. This will be wrapped in  tags to preserve whitespace}
+    */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Method Comment (ApexDoc)</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apex</scope>
+</snippet>

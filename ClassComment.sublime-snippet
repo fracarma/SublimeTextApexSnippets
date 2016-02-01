@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+ /**
+* @author ${1:FraCarma}
+* @date ${2:the date the class was first implemented}
+*
+* @group ${3:a group to display this class under, in the menu hierarchy}
+* @group-content ${4:a relative path to a static html file that provides content about the group}
+*
+* @description ${5:one or more lines that provide an overview of the class}
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Class Comment (ApexDoc)</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apex</scope>
+</snippet>
