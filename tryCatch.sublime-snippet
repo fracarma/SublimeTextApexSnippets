@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+try {
+	${2}
+} catch (Exception e) {
+	system.debug('@@Exception on ${1:ClassName}.line '+e.getLineNumber()+': '+e.getMessage());
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryCatch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apex</scope>
+	<description>try catch with system debug</description>
+</snippet>
