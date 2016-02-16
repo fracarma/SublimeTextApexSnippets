@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:permission} ${2:varType} ${3:varName}						{ get; set;}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getSetSimple</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apex</scope>
+	<description>declaration with {get;set;}</description>
+</snippet>
