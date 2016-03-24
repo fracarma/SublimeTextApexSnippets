@@ -3,7 +3,7 @@
 try {
 	${2}
 } catch (Exception e) {
-	system.debug('@@Exception on ${1:ClassName}.line '+e.getLineNumber()+': '+e.getMessage());
+	system.debug('@@Exception on '+e.getStackTraceString()+' : '+e.getMessage());
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
