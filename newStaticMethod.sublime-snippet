@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @description A description of the function
+ * @param Param data type Param description
+ * @param Param data type Param description
+ * @return Return data type Return description
+ **/
+
+public static ${1:returnType} ${2:methodName} (${3:parameters}){
+    ${1:returnType} res = new ${1:returnType}();
+    ${4}
+    return res;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newStaticMethod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apex</scope>
+	<description>new static method</description>
+</snippet>
