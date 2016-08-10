@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-${1: sObject} ${2: name} = [SELECT ${3: Fields} FROM ${1: sObject} ${4} LIMIT 1];
+${1: sObject}[] ${2: name}List = [SELECT ${3: Fields} FROM ${1: sObject} ${4} LIMIT 1];
+${1: sObject} ${2: name} = ${2: name}List[0]; 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	 <tabTrigger>SELECT single</tabTrigger> 
