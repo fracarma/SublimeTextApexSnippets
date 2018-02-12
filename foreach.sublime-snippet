@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-for(${1:sObject} ${2:cursor}: ${3:list}){
+for(${1:sObject} ${2:cursor}: ${2:cursor}List){
 	${4}
 }
 ]]></content>
